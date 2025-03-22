@@ -1,0 +1,63 @@
+.cofounders-section {
+    width: 90%;
+    max-width: 1800px;
+    margin: 10rem auto;
+    text-align: center;
+  }
+  
+  .cofounders-section h2 {
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+  
+  .cofounders-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .founder-card {
+    width: 90%;
+    max-width: 1600px;
+    background: linear-gradient(60deg, #3d0038, #17004d);
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .founder-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .founder-card h3 {
+    color: #fff;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .founder-role {
+    color: #ddd;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .founder-bio {
+    color: #ccc;
+    padding: 0 1rem 1rem;
+    overflow: hidden;
+    max-height: 0; 
+  }
+  
+  @media (min-width: 768px) {
+    .founder-card {
+      width: 45%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .founder-card {
+      width: 30%;
+    }
+  }

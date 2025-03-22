@@ -1,0 +1,160 @@
+body{
+    background: #000000;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+::-webkit-scrollbar{
+    border-radius: 15px;
+    border: none;
+    width: 12px;
+    background-color: #0b0215;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 15px;
+    animation: HrHomeCar 4s infinite ease-in-out running;
+    background-size: 400% 400%;
+    background-image: linear-gradient(to top left , #fff75c , #3f00b9);
+    transition: all 0.5s ease-in-out;
+}
+.HomeCarBgCon{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+.BgHome{
+    background-position: center;
+    z-index: -2;
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.HomeCarHr{
+    width: 90%;
+    margin: 190px auto 0;
+    height: 6px;
+    border-radius: 15px;
+    background-color: white;
+    background-image: linear-gradient(45deg , #ffec11, #a40000);
+    background-size: 400% 400%;
+    transition: all 0.5s ease-in-out;
+    animation: HrHomeCar 4s infinite ease-in-out running;
+    border: none;
+}
+
+@keyframes HrHomeCar {
+    0%{
+        background-position: 0 25%;
+    }
+    25%{
+        background-position: 55% 75%;
+    }
+    50%{
+        background-position: 75% 100%;
+    }
+    75%{
+        background-position: 25% 50%;
+    }
+    100%{
+        background-position: 0 25%;
+    }
+}
+
+.HomeCarTxtRow{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.HomeCarTxtClmn{
+    width: 50%;
+    border-left: 2px solid dimgray;
+    margin:  0 0 0 80px;
+    transition: all 0.2s ease-in-out;
+}
+.HomeCarTxtClmn:hover{
+    border-left: 10px double #ffffff;
+}
+.TxtBrdr:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right , black , white);
+    translate: -200%;
+    transition: all 0.3s ease-out;
+    background-size: 400% 400%;
+    animation: HrHomeCar 4s infinite ease-in-out running;;
+}
+.TxtBrdr:hover:after{
+    width: 120%;
+    height: 120%;
+    top: -10%;
+    left: -10%;
+    z-index: -1;
+    translate: 0;
+    border-radius: 15px;
+}
+.TxtBrdr{
+    position: relative;
+    margin:  0 20px;
+    text-align: justify;
+    font-size: 1.3rem;
+    width: 70%;
+}
+.HomeCarTxtClmnImg{
+    width: 45%;
+    opacity: 0.2;
+    transition: all 0.3s;
+}
+.HomeCarTxtClmnImg:hover{
+    opacity: 1;
+    scale: 1.01;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.ArticleImg{
+    width: 800px;
+    height: 450px;
+}
+.ScrollChangeBg{
+    position: relative;
+}
+.OrderNowBtn{
+    all: unset;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    scale: 1 1;
+    transition: all 0.3s ease-in-out;
+}
+.OrderNowBtn:hover{
+    scale: 1.08 1.04;
+}
+.OrderNowBtnLink{
+    color: white;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: all 0.5s ease-out;
+    font-size: 1.2rem;
+
+}
+.OrderNowBtnLink:hover{
+    background-image: linear-gradient(to right top, #374229, #204236, #133e43, #1f3849, #323144);
+    animation: HrHomeCar 4s infinite ease-in-out running;
+    background-size: 400% 400%;
+}
+@media screen and (width < 1230px) {
+    
+}
