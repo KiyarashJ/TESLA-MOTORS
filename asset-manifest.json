@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/TESLA-MOTORS/static/css/main.5b3a8415.css",
-    "main.js": "/TESLA-MOTORS/static/js/main.9dfba3ba.js",
-    "static/media/shubham-sharan-qKAKAoxPCr8-unsplash (1).jpg": "/TESLA-MOTORS/static/media/shubham-sharan-qKAKAoxPCr8-unsplash (1).86cbe21a83d6e133ef86.jpg",
+    "main.js": "/TESLA-MOTORS/static/js/main.e2036a75.js",
     "static/media/iYyrtk.png": "/TESLA-MOTORS/static/media/iYyrtk.a4e438d49f1c47d8b562.png",
     "static/media/Tesla_Motors_2017-19_Model_X_P100D_White_570177_1920x1080.jpg": "/TESLA-MOTORS/static/media/Tesla_Motors_2017-19_Model_X_P100D_White_570177_1920x1080.bb2c01272e256371c00e.jpg",
     "static/media/tesla-roadster-4k-hd-1920x1080_788776-mm-90.jpg": "/TESLA-MOTORS/static/media/tesla-roadster-4k-hd-1920x1080_788776-mm-90.024a1e997eebe065297a.jpg",
@@ -23,7 +22,6 @@
     "static/media/p-1-what-the-tesla-autopilot-investigation-means-for-the-future-of.webp": "/TESLA-MOTORS/static/media/p-1-what-the-tesla-autopilot-investigation-means-for-the-future-of.1723170fc34b78628500.webp",
     "static/media/1664699738-1_jpg.jpg": "/TESLA-MOTORS/static/media/1664699738-1_jpg.0040127e357cf283868c.jpg",
     "static/media/photo_2025-03-05_12-10-19.jpg": "/TESLA-MOTORS/static/media/photo_2025-03-05_12-10-19.8bca406967a3601290aa.jpg",
-    "static/media/880567.jpg": "/TESLA-MOTORS/static/media/880567.18641264b09deb9e19b8.jpg",
     "static/media/Tesla-V3-Supercharger.jpg": "/TESLA-MOTORS/static/media/Tesla-V3-Supercharger.d171dcdbc3349b5c1dc9.jpg",
     "static/media/tesla_car_black_211928_1920x1080.jpg": "/TESLA-MOTORS/static/media/tesla_car_black_211928_1920x1080.dd6a3c73ccb412c25070.jpg",
     "static/media/tesla-model-y-bianca.jpg": "/TESLA-MOTORS/static/media/tesla-model-y-bianca.b7512c9a268274ad8505.jpg",
@@ -33,10 +31,10 @@
     "static/media/892143.webp": "/TESLA-MOTORS/static/media/892143.c73be2c31ea7c343aa78.webp",
     "index.html": "/TESLA-MOTORS/index.html",
     "main.5b3a8415.css.map": "/TESLA-MOTORS/static/css/main.5b3a8415.css.map",
-    "main.9dfba3ba.js.map": "/TESLA-MOTORS/static/js/main.9dfba3ba.js.map"
+    "main.e2036a75.js.map": "/TESLA-MOTORS/static/js/main.e2036a75.js.map"
   },
   "entrypoints": [
     "static/css/main.5b3a8415.css",
-    "static/js/main.9dfba3ba.js"
+    "static/js/main.e2036a75.js"
   ]
 }
