@@ -1,177 +1,3 @@
-/* body{
-    background: #000000;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-
-}
-::-webkit-scrollbar{
-    border-radius: 15px;
-    border: none;
-    width: 12px;
-    background-color: #0b0215;
-}
-::-webkit-scrollbar-thumb{
-    border-radius: 15px;
-    animation: HrHomeCar 4s infinite ease-in-out running;
-    background-size: 400% 400%;
-    background-image: linear-gradient(to top left , #fff75c , #3f00b9);
-    transition: all 0.5s ease-in-out;
-}
-.HomeCarBgCon{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-
-}
-.BgHome{
-    background-position: center;
-    z-index: -2;
-    position: absolute;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-.HomeCarHr{
-    width: 90%;
-    margin: 190px auto 0;
-    height: 6px;
-    border-radius: 15px;
-    background-color: white;
-    background-image: linear-gradient(45deg , #ffec11, #a40000);
-    background-size: 400% 400%;
-    transition: all 0.5s ease-in-out;
-    animation: HrHomeCar 4s infinite ease-in-out running;
-    border: none;
-}
-
-@keyframes HrHomeCar {
-    0%{
-        background-position: 0 25%;
-    }
-    25%{
-        background-position: 55% 75%;
-    }
-    50%{
-        background-position: 75% 100%;
-    }
-    75%{
-        background-position: 25% 50%;
-    }
-    100%{
-        background-position: 0 25%;
-    }
-}
-
-.HomeCarTxtRow{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.HomeCarTxtClmn{
-    width: 50%;
-    border-left: 2px solid dimgray;
-    margin:  0 0 0 80px;
-    transition: all 0.2s ease-in-out;
-}
-.HomeCarTxtClmn:hover{
-    border-left: 10px double #ffffff;
-}
-.TxtBrdr:after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom right , black , white);
-    translate: -200%;
-    transition: all 0.3s ease-out;
-    background-size: 400% 400%;
-    animation: HrHomeCar 4s infinite ease-in-out running;;
-}
-.TxtBrdr:hover:after{
-    width: 120%;
-    height: 120%;
-    top: -10%;
-    left: -10%;
-    z-index: -1;
-    translate: 0;
-    border-radius: 15px;
-}
-.TxtBrdr{
-    position: relative;
-    margin:  0 20px;
-    text-align: justify;
-    font-size: 1.3rem;
-    width: 70%;
-}
-.HomeCarTxtClmnImg{
-    width: 45%;
-    opacity: 0.2;
-    transition: all 0.3s;
-}
-.HomeCarTxtClmnImg:hover{
-    opacity: 1;
-    scale: 1.01;
-    border-radius: 20px;
-    overflow: hidden;
-
-}
-.ArticleImg{
-    width: 800px;
-    height: 450px;
-}
-.ScrollChangeBg{
-    position: relative;
-}
-.OrderNowBtn{
-    all: unset;
-    backdrop-filter: blur(10px);
-    position: absolute;
-    top: 70%;
-    left: 45%;
-    scale: 1 1;
-    transition: all 0.3s ease-in-out;
-}
-.OrderNowBtn:hover{
-    scale: 1.08 1.04;
-}
-.OrderNowBtnLink{
-    color: white;
-    padding: 15px 50px;
-    text-decoration: none;
-    border-radius: 15px;
-    transition: all 0.5s ease-out;
-    font-size: 1.2rem;
-
-}
-.OrderNowBtnLink:hover{
-    background-image: linear-gradient(to right top, #374229, #204236, #133e43, #1f3849, #323144);
-    animation: HrHomeCar 4s infinite ease-in-out running;
-    background-size: 400% 400%;
-}
-@media screen and (width < 1230px) {
-    
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 body {
     background: #000000;
@@ -183,9 +9,9 @@ body {
   }
   
   ::-webkit-scrollbar {
-    border-radius: 0.78125vw; /* 15px در 1920 */
+    border-radius: 0.78125vw; 
     border: none;
-    width: 0.625vw; /* 12px در 1920 */
+    width: 0.625vw; 
     background-color: #0b0215;
   }
   
@@ -223,9 +49,9 @@ body {
   
   .HomeCarHr {
     width: 90%;
-    margin: 2.6042vw auto 0; /* 50px در 1920 */
-    height: 0.3125vw; /* 6px در 1920 */
-    border-radius: 0.78125vw; /* 15px در 1920 */
+    margin: 2.6042vw auto 0; 
+    height: 0.3125vw; 
+    border-radius: 0.78125vw; 
     background-color: white;
     background-image: linear-gradient(45deg, #ffec11, #a40000);
     background-size: 400% 400%;
@@ -259,20 +85,20 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 0.5208vw; /* 10px در 1920 */
+    padding: 0.5208vw; 
     box-sizing: border-box;
   }
   
   .HomeCarTxtClmn {
     width: 100%;
-    border-left: 0.1042vw solid dimgray; /* 2px در 1920 */
-    padding: 0.5208vw; /* 10px در 1920 */
+    border-left: 0.1042vw solid dimgray; 
+    padding: 0.5208vw; 
     transition: all 0.2s ease-in-out;
     box-sizing: border-box;
   }
   
   .HomeCarTxtClmn:hover {
-    border-left: 0.4167vw double #ffffff; /* 8px در 1920 */
+    border-left: 0.4167vw double #ffffff; 
   }
   
   .TxtBrdr:after {
@@ -296,40 +122,40 @@ body {
     left: 0;
     z-index: -1;
     translate: 0;
-    border-radius: 0.78125vw; /* 15px در 1920 */
+    border-radius: 0.78125vw; 
   }
   
   .TxtBrdr {
     position: relative;
-    margin: 0 0.5208vw; /* 10px در 1920 */
+    margin: 0 0.5208vw; 
     text-align: justify;
-    font-size: 1.3rem; /* از اول بزرگتر شروع می‌کنم */
+    font-size: 1.3rem; 
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
-    padding: 0.2604vw; /* 5px در 1920 */
+    padding: 0.2604vw; 
   }
   
   .HomeCarTxtClmnImg {
     width: 100%;
     opacity: 0.2;
     transition: all 0.3s;
-    padding: 0.5208vw; /* 10px در 1920 */
+    padding: 0.5208vw; 
     box-sizing: border-box;
   }
   
   .HomeCarTxtClmnImg:hover {
     opacity: 1;
     scale: 1.01;
-    border-radius: 1.0417vw; /* 20px در 1920 */
+    border-radius: 1.0417vw; 
     overflow: hidden;
   }
   
   .ArticleImg {
     width: 100%;
-    max-width: 41.6667vw; /* 800px در 1920 */
+    max-width: 41.6667vw; 
     height: auto;
-    aspect-ratio: 16 / 9; /* نسبت ۱۶:۹ رو حفظ می‌کنه */
+    aspect-ratio: 16 / 9; 
   }
   
   .ScrollChangeBg {
@@ -339,7 +165,7 @@ body {
   
   .OrderNowBtn {
     all: unset;
-    backdrop-filter: blur(0.5208vw); /* 10px در 1920 */
+    backdrop-filter: blur(0.5208vw); 
     position: absolute;
     top: 80%;
     left: 50%;
@@ -354,11 +180,11 @@ body {
   
   .OrderNowBtnLink {
     color: white;
-    padding: 0.5208vw 1.5625vw; /* 10px 30px در 1920 */
+    padding: 0.5208vw 1.5625vw; 
     text-decoration: none;
-    border-radius: 0.78125vw; /* 15px در 1920 */
+    border-radius: 0.78125vw; 
     transition: all 0.5s ease-out;
-    font-size: 1rem; /* از اول بزرگتر شروع می‌کنم */
+    font-size: 1rem; 
   }
   
   .OrderNowBtnLink:hover {
@@ -397,7 +223,7 @@ body {
     }
   
     .TxtBrdr {
-      font-size: 0.8rem; /* توی موبایل کوچیک‌تر */
+      font-size: 0.8rem; 
       margin: 0 0.4167vw;
       padding: 0.2083vw;
     }
@@ -416,7 +242,7 @@ body {
   
     .OrderNowBtnLink {
       padding: 0.4167vw 1.25vw;
-      font-size: 0.8rem; /* توی موبایل کوچیک‌تر */
+      font-size: 0.8rem; 
       border-radius: 0.625vw;
     }
   
@@ -465,7 +291,7 @@ body {
     }
   
     .TxtBrdr {
-      font-size: 1rem; /* توی تبلت متوسط */
+      font-size: 1rem; 
       width: 70%;
     }
   
@@ -482,7 +308,7 @@ body {
   
     .OrderNowBtnLink {
       padding: 0.625vw 2.0833vw;
-      font-size: 1rem; /* توی تبلت متوسط */
+      font-size: 1rem; 
     }
   
     .ArticleImg {
@@ -511,18 +337,18 @@ body {
     }
 
     .TxtBrdr {
-      font-size: 1.2rem; /* توی دسکتاپ بزرگ‌تر */
+      font-size: 1.2rem; 
     }
   
     .OrderNowBtnLink {
       padding: 0.78125vw 2.6042vw;
-      font-size: 1.1rem; /* توی دسکتاپ بزرگ‌تر */
+      font-size: 1.1rem; 
     }
   }
   
   @media screen and (min-width: 1200px) {
     .HomeCarHr {
-      margin: 9.8958vw auto 0; /* 190px در 1920 */
+      margin: 9.8958vw auto 0; 
     }
   
     .CyberTruckImg {
@@ -540,12 +366,12 @@ body {
     }
   
     .TxtBrdr {
-      font-size: 1.3rem; /* توی رزولوشن بالا بزرگ‌ترین */
+      font-size: 1.3rem; 
     }
   
     .OrderNowBtnLink {
       padding: 0.78125vw 2.6042vw;
-      font-size: 1.2rem; /* توی رزولوشن بالا بزرگ‌ترین */
+      font-size: 1.2rem; 
     }
   
     .ArticleImg {

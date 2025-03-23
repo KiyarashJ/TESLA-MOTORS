@@ -10,7 +10,7 @@ export  default function LearnMore(){
 
             <div className="LearnmoreCom">
                 <div className="LearnMore">
-                    <img className="LMIMG" src={require("./../Images/Tesla-house-model-s-powerwall-solar-roof1-e1541152124970.webp")} alt="Solar panels"/>
+                    <img className="LMIMG" src={require("./../Images/Tesla-house-model-s-powerwall-solar-roof1-e1541152124970.webp")} alt="Solar panels" loading="lazy" />
                     <p className="LMP">SoLaR pAnElS</p>
                 </div>
                 <button className="LMBtn"><Link className="LMbtnLink" to={'/LearnMore'}> Learn More </Link></button>

@@ -14,7 +14,7 @@ export default function SignUp(){
         <div className="AllCon">
             <div className="BoxCon">
                 <div className="LogoCon">
-                    <img src={require("./../Images/892143.webp")} alt="Logo" />
+                    <img src={require("./../Images/892143.webp")} alt="Logo" loading="lazy" />
                 </div>
                 <div className="TextCon">
                     {

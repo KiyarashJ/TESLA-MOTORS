@@ -16,7 +16,7 @@ export default function NavBarCar(){
 
                 <div className="NavLeftSide">
                     <div className="KjIcon">
-                        <img src={require("./../Images/892143.webp")} alt="" className="KjIconImg"/>
+                        <img src={require("./../Images/892143.webp")} alt="" className="KjIconImg" loading="lazy" />
                     </div>
 
                     <div className="LogInNavCar"> <Link className="LOSIGNLink" to={'/LogIn'}> Log In </Link></div>

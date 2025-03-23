@@ -25,7 +25,7 @@ function DiscoverItem({ feature, isExpanded, toggleExpand }) {
       className="discover-item"
       onClick={toggleExpand}
     >
-      <img src={feature.img} alt={feature.title} className="discover-img" />
+      <img src={feature.img} alt={feature.title} loading="lazy" className="discover-img" />
       <h3>{feature.title}</h3>
       <animated.p style={descAnimation} className="discover-desc">
         {feature.description}

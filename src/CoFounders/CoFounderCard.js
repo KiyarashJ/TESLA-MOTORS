@@ -29,7 +29,7 @@ function CoFounderCard({ founder }) {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <img src={founder.img} alt={founder.name} className="founder-img" />
+      <img src={founder.img} alt={founder.name} loading="lazy" className="founder-img" />
       <h3>{founder.name}</h3>
       <p className="founder-role">{founder.role}</p>
       <animated.p style={bioAnimation} className="founder-bio">

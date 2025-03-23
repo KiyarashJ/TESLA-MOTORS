@@ -21,6 +21,7 @@ export default function SolarPanels() {
                     <img className="img"
                       src={LearnMoreAssets[currentIndex].Image} 
                       alt={LearnMoreAssets[currentIndex].Title}
+                      loading="lazy"
                     />
             </div>
         </div>

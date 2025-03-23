@@ -23,7 +23,7 @@ function PerformanceItem({ data, isOpen, toggleModal }) {
   return (
     <div className="spec-container">
       <animated.section style={imageAnimation} className="ImageCon">
-        <img src={data.img} alt={data.name} />
+        <img src={data.img} alt={data.name} loading="lazy" />
         <button className="toggleBtn" onClick={toggleModal}>
           {isOpen ? "close" : "open"}
         </button>

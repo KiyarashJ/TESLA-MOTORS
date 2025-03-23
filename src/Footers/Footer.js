@@ -12,7 +12,7 @@ export default function Footer(){
                 <div className="CarSectionFooter">
                     {/*Tesla Logo in footers Code*/}
                     <div className="FooterLogo">
-                        <img src={require("./../Images/595a8ca3654d420af1fb043fd05976b9.jpg")} alt="Logo" className="FLogo"/>
+                        <img src={require("./../Images/595a8ca3654d420af1fb043fd05976b9.jpg")} loading="lazy"  alt="Logo" className="FLogo"/>
                     </div>
                     {/*Footer Creators INfo Codes in the bottom*/}
                     <div className="FooterInfos">
@@ -39,7 +39,7 @@ export default function Footer(){
                                         {
                                             AddressIcons.map((Ad) =>{  return(
                                                 <div key={Ad.KEY}>
-                                                    <img src={Ad.AdIcon} alt={Ad.AlterT} key={Ad.KEY}/>
+                                                    <img src={Ad.AdIcon} alt={Ad.AlterT} key={Ad.KEY} loading="lazy" />
                                                     <h5>{Ad.D_Text}</h5>
                                                 </div>
                                             )})

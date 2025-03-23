@@ -13,7 +13,7 @@ export  default function LogIn(){
             <div className="AllCon">
                 <div className="BoxCon">
                     <div className="logoCon">
-                        <img src={require("./../Images/892143.webp")} alt="LOGO" />
+                        <img src={require("./../Images/892143.webp")} alt="LOGO" loading="lazy" />
                     </div>
                     <div className="TextCon">
                         {Inputs.map(input => (

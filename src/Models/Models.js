@@ -24,7 +24,7 @@ export default function Models() {
                 {ModelsImgData.map((Image) => (
                     <div className="ModelsFlexCon" key={Image.id}>
                         <div className="TModelRoadster">
-                            <img src={Image.ImgUrl} alt={Image.alt} className="TRImg" />
+                            <img src={Image.ImgUrl} alt={Image.alt} className="TRImg" loading="lazy" />
                             {Image.PhotoIndex % 2 === 0 &&
                                 <button className="LearnMoreDesc" key={Image.PhotoIndex} onClick={()=> handleClick(Image)}> Learn More !!!</button>
                             }
