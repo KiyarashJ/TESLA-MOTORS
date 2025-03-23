@@ -1,4 +1,4 @@
-.discover-section {
+/* .discover-section {
     width: 90%;
     max-width: 1200px;
     margin: 2rem auto;
@@ -48,5 +48,99 @@
   @media (min-width: 768px) {
     .discover-item {
       width: 30%;
+    }
+  } */
+
+
+
+
+
+
+
+  .discover-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 1rem auto;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  
+  .discover-section h2 {
+    margin-bottom: 1.5rem;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .discover-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  
+  .discover-item {
+    width: 100%;
+    max-width: 350px;
+    background: linear-gradient(60deg, #3d0038, #17004d);
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .discover-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .discover-item h3 {
+    color: #fff;
+    margin: 0.75rem 0 0.25rem;
+    padding: 0 1rem;
+    font-size: 1.25rem;
+  }
+  
+  .discover-desc {
+    color: #ddd;
+    padding: 0 1rem 1rem;
+    overflow: hidden;
+    max-height: 0;
+    font-size: 0.9rem;
+  }
+  
+  @media (min-width: 768px) {
+    .discover-section {
+      margin: 2rem auto;
+    }
+    .discover-section h2 {
+      font-size: 2rem;
+    }
+    .discover-grid {
+      gap: 1.5rem;
+    }
+    .discover-item {
+      width: 48%;
+    }
+    .discover-img {
+      height: 250px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .discover-section {
+      margin: 2rem auto;
+    }
+    .discover-section h2 {
+      font-size: 2.5rem;
+    }
+    .discover-grid {
+      gap: 2rem;
+    }
+    .discover-item {
+      width: 30%;
+    }
+    .discover-img {
+      height: 200px;
     }
   }

@@ -1,4 +1,4 @@
-.cofounders-section {
+/* .cofounders-section {
     width: 90%;
     max-width: 1800px;
     margin: 10rem auto;
@@ -59,5 +59,122 @@
   @media (min-width: 1024px) {
     .founder-card {
       width: 30%;
+    }
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .cofounders-section {
+    width: 100%; /* عوض کردم به 100% که توی همه سایزها پر بشه */
+    max-width: 1200px; /* 1800px زیادی بود، 1200px استانداردتره */
+    margin: 2rem auto; /* 10rem برای موبایل زیاده، 2rem متعادل‌تره */
+    padding: 0 1rem; /* یه کم پدینگ برای حاشیه‌های موبایل */
+    text-align: center;
+  }
+  
+  .cofounders-section h2 {
+    margin-bottom: 1.5rem; /* 2rem رو کم کردم که تنگ‌تر شه */
+    color: #fff;
+    font-size: 1.5rem; /* اندازه فونت برای موبایل */
+  }
+  
+  .cofounders-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem; /* 2rem برای موبایل زیاده، 1rem بهتره */
+  }
+  
+  .founder-card {
+    width: 100%; /* توی موبایل کامل باشه */
+    max-width: 350px; /* 1600px رو عوض کردم، 350px برای کارت مناسبه */
+    background: linear-gradient(60deg, #3d0038, #17004d);
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .founder-img {
+    width: 100%;
+    height: 200px; /* auto رو عوض کردم که توی همه دستگاه‌ها ثابت بمونه */
+    object-fit: cover;
+  }
+  
+  .founder-card h3 {
+    color: #fff;
+    margin: 0.75rem 0 0.25rem; /* حاشیه‌ها رو کم کردم برای فشردگی */
+    font-size: 1.25rem;
+    padding: 0 1rem; /* پدینگ برای نظم */
+  }
+  
+  .founder-role {
+    color: #ddd;
+    font-size: 1rem; /* 1.1rem رو کم کردم برای موبایل */
+    margin-bottom: 0.25rem;
+    padding: 0 1rem;
+  }
+  
+  .founder-bio {
+    color: #ccc;
+    padding: 0 1rem 1rem;
+    overflow: hidden;
+    max-height: 0; /* این خوبه، برای انیمیشن نگه داشتم */
+    font-size: 0.9rem; /* برای موبایل کوچکتر */
+  }
+  
+  @media (min-width: 768px) {
+    .cofounders-section {
+      margin: 4rem auto; /* توی تبلت و دسکتاپ حاشیه بیشتر */
+    }
+  
+    .cofounders-section h2 {
+      font-size: 2rem; /* توی تبلت بزرگتر */
+    }
+  
+    .cofounders-grid {
+      gap: 1.5rem; /* توی تبلت کمی بیشتر */
+    }
+  
+    .founder-card {
+      width: 48%; /* دو تا کنار هم */
+    }
+  
+    .founder-img {
+      height: 250px; /* توی تبلت بلندتر */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .cofounders-section {
+      margin: 6rem auto; /* توی دسکتاپ بیشتر */
+    }
+  
+    .cofounders-section h2 {
+      font-size: 2.5rem; /* توی دسکتاپ بزرگتر */
+    }
+  
+    .cofounders-grid {
+      gap: 2rem; /* برگشت به فاصله اصلی */
+    }
+  
+    .founder-card {
+      width: 30%; /* سه تا کنار هم */
+    }
+  
+    .founder-img {
+      height: 300px; /* توی دسکتاپ بلندتر */
     }
   }

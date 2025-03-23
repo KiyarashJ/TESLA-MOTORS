@@ -76,12 +76,9 @@ export default function HomeCar(){
 
             {/*this code is for background Scroll Change*/}
     <div className="ScrollChangeBg">
-            <div style={{ backgroundImage: `url(${OrderImages[images].Phts})`,
-                height: "100vh",
-                width: "100%",
-                backgroundSize: "cover",
-                backgroundPosition: "center"}}>
-            </div>
+        
+            <img src={OrderImages[0].Phts} className="CyberTruckImg" />
+            
 
             <button className="OrderNowBtn">
                 <Link className="OrderNowBtnLink" to={'/LogIn'}> Order Now</Link>

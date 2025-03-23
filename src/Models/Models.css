@@ -1,4 +1,4 @@
-.AllModelsCon{
+/* .AllModelsCon{
     width: 100%;
     margin: -100px 0 0 0;
 }
@@ -109,4 +109,260 @@ visibility: hidden;
     overflow: hidden;
     background: rgba(0, 105, 36, 0.1);
     border-radius: 50px;
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .AllModelsCon {
+    width: 100%;
+    margin: -5.2083vw 0 0 0; /* -100px در 1920 */
+  }
+  
+  .ModelsFlexCon {
+    width: 100%;
+  }
+  
+  .TModelRoadster {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ImgDescCon::after {
+    content: "";
+    position: absolute;
+    top: 90%;
+    left: 0;
+    background: linear-gradient(#ff4700, #fff75c);
+    width: 100%;
+    height: 0.3125vw; /* 6px در 1920 */
+    background-size: 400% 400%;
+    animation: BAHRS 3s infinite ease-in-out running;
+  }
+  
+  .ImgDescCon::before {
+    content: "";
+    background: linear-gradient(#31004f, #930047);
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 0.3125vw; /* 6px در 1920 */
+    background-size: 400% 400%;
+    animation: BAHRS 3s infinite ease-in-out running;
+  }
+  
+  @keyframes BAHRS {
+    0% {
+      background-position: 0% 35%;
+    }
+    25% {
+      background-position: 40% 80%;
+    }
+    50% {
+      background-position: 70% 100%;
+    }
+    75% {
+      background-position: 50% 65%;
+    }
+    100% {
+      background-position: 20% 25%;
+    }
+  }
+  
+  .LearnMoreDesc {
+    z-index: 4;
+    all: unset;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 2.0833vw; /* 40px در 1920 */
+    position: absolute;
+    top: 80%;
+    left: 43.5%;
+    -webkit-text-stroke: 0.0521vw black; /* 1px در 1920 */
+    color: transparent;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .TRImg {
+    border-radius: 2.0833vw; /* 40px در 1920 */
+    margin: 6.25vw 0 1.5625vw; /* 120px 0 30px در 1920 */
+    width: 80%;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  
+  .TRImg:hover {
+    width: 90%;
+    opacity: 1;
+    box-shadow: 0.2604vw 0.2604vw 1.0417vw 0.15625vw rgba(255, 255, 255, 0.2); /* 5px 5px 20px 3px در 1920 */
+  }
+  
+  .LearnMoreDesc:hover {
+    box-shadow: 0.5208vw 0.5208vw 0.5208vw 0.0521vw rgba(0, 0, 0, 0.5); /* 10px 10px 10px 1px در 1920 */
+    padding: 0.1042vw; /* 2px در 1920 */
+    border-radius: 0.78125vw; /* 15px در 1920 */
+    color: black;
+  }
+  
+  .hiddenDesc {
+    transition: all 0.3s linear;
+    visibility: hidden;
+  }
+  
+  .visiblityDesc {
+    visibility: visible;
+    margin: 5.2083vw 4.1667vw; /* 100px 80px در 1920 */
+    line-height: 1.5625vw; /* 30px در 1920 */
+    font-size: 1.0417vw; /* 20px در 1920 */
+    text-align: justify;
+  }
+  
+  .ImgDescCon {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: rgba(0, 105, 36, 0.1);
+    border-radius: 2.6042vw; /* 50px در 1920 */
+  }
+  
+  @media screen and (max-width: 568px) {
+    .AllModelsCon {
+      margin: -4.1667vw 0 0 0;
+    }
+  
+    .ImgDescCon::after,
+    .ImgDescCon::before {
+      height: 0.25vw;
+    }
+  
+    .LearnMoreDesc {
+      font-size: 1.6667vw;
+      -webkit-text-stroke: 0.0417vw black;
+    }
+  
+    .TRImg {
+      border-radius: 1.6667vw;
+      margin: 5vw 0 1.25vw;
+    }
+  
+    .TRImg:hover {
+      box-shadow: 0.2083vw 0.2083vw 0.8333vw 0.125vw rgba(255, 255, 255, 0.2);
+    }
+  
+    .LearnMoreDesc:hover {
+      box-shadow: 0.4167vw 0.4167vw 0.4167vw 0.0417vw rgba(0, 0, 0, 0.5);
+      padding: 0.0833vw;
+      border-radius: 0.625vw;
+    }
+  
+    .visiblityDesc {
+      margin: 4.1667vw 3.3333vw;
+      line-height: 1.25vw;
+      font-size: 0.8333vw;
+    }
+  
+    .ImgDescCon {
+      border-radius: 2.0833vw;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .AllModelsCon {
+      margin: -4.6875vw 0 0 0;
+    }
+  
+    .ImgDescCon::after,
+    .ImgDescCon::before {
+      height: 0.28125vw;
+    }
+  
+    .LearnMoreDesc {
+      font-size: 1.875vw;
+    }
+  
+    .TRImg {
+      margin: 5.625vw 0 1.40625vw;
+    }
+  
+    .visiblityDesc {
+      margin: 4.6875vw 3.75vw;
+      line-height: 1.40625vw;
+      font-size: 0.9375vw;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .AllModelsCon {
+      margin: -5vw 0 0 0;
+    }
+  
+    .LearnMoreDesc {
+      font-size: 2vw;
+    }
+  
+    .TRImg {
+      margin: 6vw 0 1.5vw;
+    }
+  
+    .visiblityDesc {
+      margin: 5vw 4vw;
+      line-height: 1.5vw;
+      font-size: 1vw;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .AllModelsCon {
+      margin: -5.2083vw 0 0 0;
+    }
+  
+    .ImgDescCon::after,
+    .ImgDescCon::before {
+      height: 0.3125vw;
+    }
+  
+    .LearnMoreDesc {
+      font-size: 2.0833vw;
+    }
+  
+    .TRImg {
+      border-radius: 2.0833vw;
+      margin: 6.25vw 0 1.5625vw;
+    }
+  
+    .visiblityDesc {
+      margin: 5.2083vw 4.1667vw;
+      line-height: 1.5625vw;
+      font-size: 1.0417vw;
+    }
+  
+    .ImgDescCon {
+      border-radius: 2.6042vw;
+    }
+  }

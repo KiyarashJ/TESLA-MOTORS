@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TESLA-MOTORS/static/css/main.ff34a1c8.css",
-    "main.js": "/TESLA-MOTORS/static/js/main.c787cc30.js",
+    "main.css": "/TESLA-MOTORS/static/css/main.5b3a8415.css",
+    "main.js": "/TESLA-MOTORS/static/js/main.9dfba3ba.js",
     "static/media/shubham-sharan-qKAKAoxPCr8-unsplash (1).jpg": "/TESLA-MOTORS/static/media/shubham-sharan-qKAKAoxPCr8-unsplash (1).86cbe21a83d6e133ef86.jpg",
     "static/media/iYyrtk.png": "/TESLA-MOTORS/static/media/iYyrtk.a4e438d49f1c47d8b562.png",
     "static/media/Tesla_Motors_2017-19_Model_X_P100D_White_570177_1920x1080.jpg": "/TESLA-MOTORS/static/media/Tesla_Motors_2017-19_Model_X_P100D_White_570177_1920x1080.bb2c01272e256371c00e.jpg",
@@ -32,11 +32,11 @@
     "static/media/img_0623.jpg": "/TESLA-MOTORS/static/media/img_0623.f30d6373b43e43a6042c.jpg",
     "static/media/892143.webp": "/TESLA-MOTORS/static/media/892143.c73be2c31ea7c343aa78.webp",
     "index.html": "/TESLA-MOTORS/index.html",
-    "main.ff34a1c8.css.map": "/TESLA-MOTORS/static/css/main.ff34a1c8.css.map",
-    "main.c787cc30.js.map": "/TESLA-MOTORS/static/js/main.c787cc30.js.map"
+    "main.5b3a8415.css.map": "/TESLA-MOTORS/static/css/main.5b3a8415.css.map",
+    "main.9dfba3ba.js.map": "/TESLA-MOTORS/static/js/main.9dfba3ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff34a1c8.css",
-    "static/js/main.c787cc30.js"
+    "static/css/main.5b3a8415.css",
+    "static/js/main.9dfba3ba.js"
   ]
 }

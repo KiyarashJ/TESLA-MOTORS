@@ -1,4 +1,4 @@
-body{
+/* body{
     width: 100%;
     height: 100vh;
 }
@@ -62,4 +62,177 @@ body{
     100%{
         background-position: 0 25%;
     }
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .LearnmoreCom {
+    width: 100%;
+    position: relative;
+  }
+  
+  .LearnMore {
+    width: 100%;
+    position: relative;
+  }
+  
+  .LMIMG {
+    width: 100%;
+    height: auto;
+  }
+  
+  .LMP {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    font-size: 4rem; /* 60px در 1920 */
+    font-weight: bolder;
+    color: transparent;
+    -webkit-text-stroke: 0.0521vw white; /* 1px در 1920 */
+  }
+  
+  .LMBtn {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    font-size: 2rem; /* 18px در 1920 */
+  }
+  
+  .LMbtnLink {
+    color: transparent;
+    -webkit-text-stroke: 0.0521vw white; /* 1px در 1920 */
+    text-decoration: none;
+    padding: 0.78125vw 3.125vw; /* 15px 60px در 1920 */
+    transition: all 0.2s;
+  }
+  
+  .LMbtnLink:hover {
+    border-radius: 0.78125vw; /* 15px در 1920 */
+    color: white;
+    background-size: 400% 400%;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.5), rgba(124, 255, 0, 0.5));
+    filter: none; /* blur(500%) منطقی نیست، حذفش کردم */
+    animation: LearnMore 3s infinite ease-in running;
+  }
+  
+  @keyframes LearnMore {
+    0% {
+      background-position: 0 25%;
+    }
+    25% {
+      background-position: 55% 75%;
+    }
+    50% {
+      background-position: 75% 100%;
+    }
+    75% {
+      background-position: 25% 50%;
+    }
+    100% {
+      background-position: 0 25%;
+    }
+  }
+  
+  @media screen and (max-width: 568px) {
+    .LMP {
+      font-size: 2.5vw;
+      -webkit-text-stroke: 0.0417vw white;
+    }
+  
+    .LMBtn {
+      font-size: 0.75vw;
+    }
+  
+    .LMbtnLink {
+      padding: 0.625vw 2.5vw;
+      -webkit-text-stroke: 0.0417vw white;
+    }
+  
+    .LMbtnLink:hover {
+      border-radius: 0.625vw;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .LMP {
+      font-size: 2.8125vw;
+    }
+  
+    .LMBtn {
+      font-size: 0.85vw;
+    }
+  
+    .LMbtnLink {
+      padding: 0.7vw 2.8125vw;
+    }
+  
+    .LMbtnLink:hover {
+      border-radius: 0.7vw;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .LMP {
+      font-size: 3vw;
+    }
+  
+    .LMBtn {
+      font-size: 0.9vw;
+    }
+  
+    .LMbtnLink {
+      padding: 0.75vw 3vw;
+    }
+  
+    .LMbtnLink:hover {
+      border-radius: 0.75vw;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .LMP {
+      font-size: 4vw;
+    }
+  
+    .LMBtn {
+      font-size: 1.5375vw;
+    }
+  
+    .LMbtnLink {
+      padding: 0.78125vw 3.125vw;
+    }
+  
+    .LMbtnLink:hover {
+      border-radius: 0.78125vw;
+    }
+  }

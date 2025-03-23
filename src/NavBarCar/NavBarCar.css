@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@600&family=Bungee+Spice&family=Germania+One&family=Hedvig+Letters+Sans&family=Kalnia:wght@500&family=Kdam+Thmor+Pro&family=Lalezar&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+Pahawh+Hmong&family=Playfair+Display:ital,wght@1,800&family=Poppins&family=Roboto:ital,wght@0,400;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Afacad:wght@600&family=Bungee+Spice&family=Germania+One&family=Hedvig+Letters+Sans&family=Kalnia:wght@500&family=Kdam+Thmor+Pro&family=Lalezar&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+Pahawh+Hmong&family=Playfair+Display:ital,wght@1,800&family=Poppins&family=Roboto:ital,wght@0,400;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -10,10 +10,6 @@ body{
     color: #ffffff;
 
 }
-
-
-
-/*this is the left side css codes*/
 
 
 
@@ -109,7 +105,7 @@ body{
 
 }
 
-/*this is right side css codes*/
+
 .NavRightSide{
     width: 50%;
 }
@@ -122,4 +118,270 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+} */
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@600&family=Bungee+Spice&family=Germania+One&family=Hedvig+Letters+Sans&family=Kalnia:wght@500&family=Kdam+Thmor+Pro&family=Lalezar&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+Pahawh+Hmong&family=Playfair+Display:ital,wght@1,800&family=Poppins&family=Roboto:ital,wght@0,400;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  width: 100%;
+  height: 100vh;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+.WholeNavCon {
+  z-index: 2;
+  margin: 0 auto;
+  width: 95%;
+  border-radius: 0.78125vw; /* 15px در 1920 */
+  height: 4.1667vw; /* 80px در 1920 */
+  background: rgb(132, 255, 132);
+  display: flex;
+  position: relative;
+  transition: all 0.2s;
+}
+
+.WholeNavCon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  translate: -100%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.WholeNavCon:hover {
+  background: none;
+}
+
+.WholeNavCon:hover:after {
+  translate: 0;
+  z-index: -1;
+  border-radius: 0.78125vw;
+  animation: BtnAnim 2s ease-in infinite;
+  background-image: linear-gradient(#61dafb, #85FFBD);
+  background-size: 400% 400%;
+}
+
+.NavLeftSide {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.KjIcon {
+  width: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5208vw; /* 10px در 1920 */
+}
+
+.KjIconImg {
+  width: 100%;
+  height: auto;
+}
+
+.LogInNavCar, .SignUpNAvCar {
+  all: unset;
+  margin: 0 0.5208vw; /* 10px در 1920 */
+}
+
+.LOSIGNLink {
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  padding: 0.78125vw 1.5625vw; /* 15px 30px در 1920 */
+}
+
+.LOSIGNLink:hover {
+  background-color: black;
+  border-radius: 1.0417vw; /* 20px در 1920 */
+  background-size: 400% 400%;
+  background-image: conic-gradient(#c8ff00, #146440);
+  animation: BtnAnim 4s ease-in infinite;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+@keyframes BtnAnim {
+  0% {
+    background-position: 0 25%;
+  }
+  25% {
+    background-position: 25% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  75% {
+    background-position: 50% 75%;
+  }
+  100% {
+    background-position: 25% 50%;
+  }
+}
+
+.NavRightSide {
+  width: 50%;
+}
+
+.NavLeftSideUl {
+  width: 100%;
+  list-style: none;
+}
+
+.NavRightSide, .NavLeftSideUl {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 568px) {
+   * {
+    font-size: 0.5rem;
+   }
+
+   .NavLeftSide {
+    width: 40%;
+    }
+
+  .WholeNavCon {
+    height: 3.75vw;
+    border-radius: 0.625vw;
+  }
+
+  .WholeNavCon:hover:after {
+    border-radius: 0.625vw;
+  }
+
+  .KjIcon {
+    margin: 0 0.4167vw;
+  }
+
+  .LogInNavCar, .SignUpNAvCar {
+    margin: 0 0.4167vw;
+  }
+
+  .LOSIGNLink {
+    padding: 0.625vw 1.25vw;
+  }
+
+  .LOSIGNLink:hover {
+    border-radius: 0.8333vw;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+    * {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 658px) {
+    * {
+        font-size: 0.70rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    * {
+        font-size: 0.8rem;
+    }
+  .NavLeftSide {
+    width: 50%;
+  }
+  .WholeNavCon {
+    height: 3.90vw;
+  }
+
+  .KjIcon {
+    margin: 0 0.4688vw;
+  }
+
+  .LogInNavCar, .SignUpNAvCar {
+    margin: 0 0.4688vw;
+  }
+
+  .LOSIGNLink {
+    padding: 0.7vw 1.40625vw;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+    * {
+        font-size: 0.98rem;
+    }
+
+    .NavLeftSide {
+        width: 50%;
+    }
+  .WholeNavCon {
+    height: 4.1667vw;
+  }
+
+  .KjIcon {
+    margin: 0 0.5vw;
+  }
+
+  .LogInNavCar, .SignUpNAvCar {
+    margin: 0 0.5vw;
+  }
+
+  .LOSIGNLink {
+    padding: 0.75vw 1.5vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+    .NavLeftSide {
+        width: 48%;
+    }
+
+    * {
+        font-size: 19px;
+    }
+  .WholeNavCon {
+    height: 4.1667vw;
+    border-radius: 0.78125vw;
+  }
+
+  .WholeNavCon:hover:after {
+    border-radius: 0.78125vw;
+  }
+
+  .KjIcon {
+    margin: 0 0.5208vw;
+  }
+
+  .LogInNavCar, .SignUpNAvCar {
+    margin: 0 0.5208vw;
+  }
+
+  .LOSIGNLink {
+    padding: 0.78125vw 1.5625vw;
+  }
+
+  .LOSIGNLink:hover {
+    border-radius: 1.0417vw;
+  }
 }
