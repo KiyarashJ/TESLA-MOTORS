@@ -3,6 +3,9 @@
   "homepage": "https://KiyarashJ.github.io/TESLA-MOTORS",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+  "node": "18.x"
+  },
   "dependencies": {
     "@react-spring/web": "^9.7.5",
     "@testing-library/dom": "^10.4.0",
